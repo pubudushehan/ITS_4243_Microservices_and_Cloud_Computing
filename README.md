@@ -195,7 +195,7 @@ curl -X POST http://localhost:8080/api/students \
     "age": 20
   }'
 ```
-![alt text]ITS_4243_Microservices_and_Cloud_Computing/Postman Screenshots/POST (Add Student).jpeg
+![alt text](<Postman Screenshots/POST (Add Student).jpeg>)
 **Get all students:**
 ```bash
 curl http://localhost:8080/api/students
