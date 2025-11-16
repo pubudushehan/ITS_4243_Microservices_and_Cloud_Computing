@@ -98,20 +98,20 @@ http://localhost:8080/api/students
 - **Request Body:**
   ```json
   {
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "course": "Computer Science",
-    "age": 20
+    "name": "Pubudu Shwhan",
+    "email": "pubudushehan@gmail.com",
+    "course": "Machine Learning",
+    "age": 24
   }
   ```
 - **Response:** 201 Created
   ```json
   {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "course": "Computer Science",
-    "age": 20
+    "id": 4,
+    "name": "Pubudu Shehan",
+    "email": "pubudushehan@gmail.com",
+    "course": "Machine Learning",
+    "age": 24
   }
   ```
 
@@ -128,27 +128,27 @@ http://localhost:8080/api/students
 
 ### 3. Get Student by ID
 - **GET** `/api/students/{id}`
-- **Example:** `GET /api/students/1`
+- **Example:** `GET /api/students/4`
 - **Response:** 200 OK
   ```json
   {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "course": "Computer Science",
-    "age": 20
+    "id": 4,
+    "name": "Pubudu Shehan",
+    "email": "pubudushehan@gmail.com",
+    "course": "Machine Learning",
+    "age": 24
   }
   ```
 
 ### 4. Update Student
 - **PUT** `/api/students/{id}`
 - **Request Body:** (same as Create Student)
-- **Example:** `PUT /api/students/1`
+- **Example:** `PUT /api/students/4`
 - **Response:** 200 OK (updated student object)
 
 ### 5. Delete Student
 - **DELETE** `/api/students/{id}`
-- **Example:** `DELETE /api/students/1`
+- **Example:** `DELETE /api/students/4`
 - **Response:** 204 No Content
 
 ## Validation Rules
@@ -195,7 +195,7 @@ curl -X POST http://localhost:8080/api/students \
     "age": 20
   }'
 ```
-![alt text](image-1.png)
+![alt text]ITS_4243_Microservices_and_Cloud_Computing/Postman Screenshots/POST (Add Student).jpeg
 **Get all students:**
 ```bash
 curl http://localhost:8080/api/students
