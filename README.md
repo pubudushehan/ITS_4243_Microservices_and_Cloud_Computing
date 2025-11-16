@@ -100,7 +100,7 @@ http://localhost:8080/api/students
   {
     "name": "Pubudu Shwhan",
     "email": "pubudushehan@gmail.com",
-    "course": "Machine Learning",
+    "course": "Software Engineer",
     "age": 24
   }
   ```
@@ -110,7 +110,7 @@ http://localhost:8080/api/students
     "id": 4,
     "name": "Pubudu Shehan",
     "email": "pubudushehan@gmail.com",
-    "course": "Machine Learning",
+    "course": "Software Engineer",
     "age": 24
   }
   ```
@@ -135,16 +135,32 @@ http://localhost:8080/api/students
     "id": 4,
     "name": "Pubudu Shehan",
     "email": "pubudushehan@gmail.com",
-    "course": "Machine Learning",
+    "course": "Software Engineer",
     "age": 24
   }
   ```
 
 ### 4. Update Student
 - **PUT** `/api/students/{id}`
-- **Request Body:** (same as Create Student)
-- **Example:** `PUT /api/students/4`
-- **Response:** 200 OK (updated student object)
+- **Request Body:**
+  ```json
+  {
+    "name": "Pubudu Shwhan",
+    "email": "pubudushehan@gmail.com",
+    "course": "Machine Learning",
+    "age": 24
+  }
+  ```
+- **Response:** 200 Ok
+  ```json
+  {
+    "id": 4,
+    "name": "Pubudu Shehan",
+    "email": "pubudushehan@gmail.com",
+    "course": "Machine Learning",
+    "age": 24
+  }
+  ```
 
 ### 5. Delete Student
 - **DELETE** `/api/students/{id}`
