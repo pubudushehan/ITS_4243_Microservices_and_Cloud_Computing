@@ -231,7 +231,7 @@ curl -X PUT http://localhost:8080/api/students/1 \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Pubudu Shehan",
-    "email": "jpubudushehan@gmail.com",
+    "email": "pubudushehan@gmail.com",
     "course": "Machine Learning",
     "age": 24
   }'
