@@ -189,10 +189,10 @@ http://localhost:8080/swagger-ui/index.html
 curl -X POST http://localhost:8080/api/students \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "course": "Computer Science",
-    "age": 20
+    "name": "Pubudu Shehan",
+    "email": "pubudushehan@gmail.com",
+    "course": "Software Engineer",
+    "age": 24
   }'
 ```
 ![alt text](<Postman Screenshots/POST (Add Student).jpeg>)
@@ -214,10 +214,10 @@ curl http://localhost:8080/api/students/1
 curl -X PUT http://localhost:8080/api/students/1 \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "John Smith",
-    "email": "john.smith@example.com",
-    "course": "Mathematics",
-    "age": 21
+    "name": "Pubudu Shehan",
+    "email": "jpubudushehan@gmail.com",
+    "course": "Machine Learning",
+    "age": 24
   }'
 ```
 ![alt text](<Postman Screenshots/PUT (Update Student).jpeg>)
