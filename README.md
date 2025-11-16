@@ -98,7 +98,7 @@ http://localhost:8080/api/students
 - **Request Body:**
   ```json
   {
-    "name": "Pubudu Shwhan",
+    "name": "Pubudu Shehan",
     "email": "pubudushehan@gmail.com",
     "course": "Software Engineer",
     "age": 24
